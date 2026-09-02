@@ -1,0 +1,10 @@
+your_email@example.com
+your_password
+C:\AltiumLL\Downloads
+C:\AltiumLL\MyLib.SchLib
+C:\AltiumLL\MyLib.PcbLib
+False
+
+
+False
+False
