@@ -271,6 +271,4 @@ The file was never corrupted by an external force — the app was writing bad in
 
 ---
 
-## Security note
 
-`AltiumLL.txt` stores your login in **plain text**. **Never commit a real `AltiumLL.txt`, email, or password to a public repository** — use placeholder values (as in `AltiumLL.example.txt`). Deleted commits still live in git history. If your real credentials have ever been exposed (pasted in chats, screenshots, issues), **change that account password**.
