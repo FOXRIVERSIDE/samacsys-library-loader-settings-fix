@@ -24,7 +24,7 @@ There are **three** distinct triggers, and you may hit more than one:
 2. **Unwritable file** — `AltiumLL.txt` is read-only (or the folder is locked/synced), so `UpdateTXT` fails with *Permission denied* and can never save your fix.
 3. **Second-import corruption (the big one)** — the import flow leaves the settings text boxes in a bad state, and the next `UpdateTXT` writes that garbage over your good paths. This is why it works once, then breaks on the second component.
 
-The durable fix is to **guard `UpdateTXT` so it refuses to write an invalid file**, plus keep the file writable and correctly formatted. Details below.
+The durable fix is to **guard `UpdateTXT` so it refuses to write an invalid file**, plus keep the file writable and correctly formatted. Details below.Also, The  **fixed version of the VBS file** is included in repo, you can just easily replace the file.
 
 ---
 
